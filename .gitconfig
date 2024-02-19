@@ -1,5 +1,29 @@
 [user]
 	name = Christopher Terence Ng
-	email = 34878902+christerng@users.noreply.github.com
+	email = christopher.ng@illumina.com
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+	default = current
+[merge]
+	conflictStyle = zdiff3
+	tool = meld
+[diff]
+	colorMoved = default
+	algorithm = histogram
+[branch]
+	sort = -committerdate
+[rebase]
+	autoStash = true
+[commit]
+	verbose = true
+[rerere]
+	enabled = true
+[help]
+	autocorrect = 10
 [core]
 	editor = vim
+	pager = delta
+[interactive]
+	diffFilter = delta
